@@ -9,13 +9,11 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.body {
+body {
   background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
 }
 
 .container {
-  background-color: #83dfeb;
-
   max-width: 50%;
   display: flex;
   flex-direction: row;
@@ -23,8 +21,6 @@ html, body {
 }
 
 .left, .right {
-  background-color: lightblue;
-  
   margin: 5px;
   max-width: 50%;
   flex: 1;
